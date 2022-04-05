@@ -1,0 +1,61 @@
+body {
+    background-color: #000000;
+    color: white;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.time {
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(233, 158, 105);
+    margin-top: 50px;
+}
+
+.controlButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.controlButtons button {
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lap-container {
+    margin-top: 50px;
+    height: 300px;
+    width: 600px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.timeDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.wrapperlap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
